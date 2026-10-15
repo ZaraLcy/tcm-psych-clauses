@@ -26,4 +26,3 @@ python3 -m http.server 8000   # 開啟 http://localhost:8000/
 
 ## 資料產生
 由上層目錄 `build.py`（解析與關鍵詞邏輯）與 `export_site.py` 產生 `data.js`/`data.json`。
-EOF
