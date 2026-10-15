@@ -20,3 +20,7 @@ main{flex:1;min-width:0;padding:1em;max-width:900px}
 #info a{color:var(--ac)}
 .logo{height:52px;width:auto;vertical-align:middle;margin-right:.4em}@media(max-width:760px){.logo{height:36px}}
 @media(max-width:760px){header h1{font-size:.95em}header h1 a{display:flex;align-items:center}}
+#side details summary{cursor:pointer;list-style:none;padding:.1em 0}#side details summary::-webkit-details-marker{display:none}
+#side details>summary::before{content:'▸';display:inline-block;width:1em;color:var(--mut);transition:transform .15s}#side details[open]>summary::before{transform:rotate(90deg)}
+#side details.cat>summary{color:var(--ac);font-weight:bold;margin-top:.5em}#side details.kw>summary a{display:inline}#side details.cat>a.leaf{margin-left:1em}#side details.kw{margin-left:.6em}#side a.sub{margin-left:2.2em;font-size:.95em}
+@media(max-width:420px){header h1{font-size:.82em}}
